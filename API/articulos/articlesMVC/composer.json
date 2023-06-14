@@ -1,0 +1,13 @@
+{
+  "require": {
+    "vlucas/phpdotenv": "^2.4",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
